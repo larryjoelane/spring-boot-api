@@ -4,7 +4,9 @@
   "description": "Helper scripts for the spring boot api boiler plate project",
   "main": "index.js",
   "scripts": {
-    "start:dev": "mvn spring-boot:run"
+    "start": "mvn spring-boot:run",
+    "mysql:start": "cd /usr/local/bin && mysql.server start",
+    "mysql:stop": "cd /usr/local/bin && mysql.server stop"
   },
   "author": "Larry J Lane",
   "license": "ISC"
